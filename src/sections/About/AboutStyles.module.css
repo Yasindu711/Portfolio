@@ -1,0 +1,43 @@
+/* Main container styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    gap: 20px;
+  }
+  
+  /* Content styling */
+  .content {
+    max-width: 800px; /* Set a max width for the text */
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--text-color);
+  }
+  
+  /* Responsive design for medium screens */
+  @media (min-width: 800px) {
+    .container {
+      padding: 60px 40px;
+    }
+  
+    .content {
+      font-size: 20px;
+    }
+  }
+  
+  /* Responsive design for large screens */
+  @media (min-width: 1400px) {
+    .container {
+      padding: 80px 60px;
+    }
+  
+    .content {
+      font-size: 22px;
+    }
+  }
+  
