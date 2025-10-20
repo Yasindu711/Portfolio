@@ -43,7 +43,7 @@ function Hero() {
             <br/> 
             Ariyarthna
         </h1>
-        <h2>Software Engineering Student</h2>
+        <h2>Graduate Software Engineering Student</h2>
         <span>
             <a href="https://twitter.com/" target="_blank">
                 <img src={twitterIcon} alt="twitter logo" />
