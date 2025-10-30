@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: min(800px, 100%);
+  padding: 0 20px;
+}
+
+.card {
+  background: var(--experience-card-bg);
+  border: 1px solid var(--experience-card-border);
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+  text-align: left;
+  transition: border-color 200ms ease, box-shadow 200ms ease;
+}
+
+.card:hover {
+  border-color: rgba(9, 135, 242, 0.35);
+  box-shadow: 0 20px 45px rgba(9, 135, 242, 0.15);
+}
+
+.cardHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cardHeader h2 {
+  margin: 0;
+}
+
+.companyLine {
+  margin: 0;
+  color: var(--form-text-color);
+  font-weight: 500;
+}
+
+.dates {
+  font-family: 'Roboto Mono', monospace;
+  color: var(--form-text-color);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.location {
+  margin: 0;
+  color: var(--secondary-text-color);
+}
+
+@media (width >= 800px) {
+  .timeline {
+    gap: 40px;
+  }
+}
