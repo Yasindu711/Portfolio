@@ -25,6 +25,12 @@
   color: var(--experience-card-text, var(--text-color));
 }
 
+:global(body[data-theme='dark']) .card {
+  background: #2c2f36;
+  border-color: rgba(255, 255, 255, 0.08);
+  color: #f8fafc;
+}
+
 .card:hover {
   border-color: rgba(9, 135, 242, 0.35);
   box-shadow: 0 20px 45px rgba(9, 135, 242, 0.15);
@@ -41,10 +47,18 @@
   color: var(--experience-card-text, var(--text-color));
 }
 
+:global(body[data-theme='dark']) .cardHeader h2 {
+  color: #f8fafc;
+}
+
 .companyLine {
   margin: 0;
   color: var(--experience-card-meta, var(--form-text-color));
   font-weight: 500;
+}
+
+:global(body[data-theme='dark']) .companyLine {
+  color: #e2e8f0;
 }
 
 .dates {
@@ -54,9 +68,17 @@
   margin: 0;
 }
 
+:global(body[data-theme='dark']) .dates {
+  color: #e2e8f0;
+}
+
 .location {
   margin: 0;
   color: var(--experience-card-muted, var(--secondary-text-color));
+}
+
+:global(body[data-theme='dark']) .location {
+  color: #cbd5e1;
 }
 
 @media (width >= 800px) {
