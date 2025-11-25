@@ -15,19 +15,11 @@
 }
 
 .card {
-  background: var(--experience-card-bg, #f6f8fa);
-  border: 1px solid var(--experience-card-border, rgba(34, 51, 84, 0.12));
+  background: var(--project-card-bg);
   border-radius: 20px;
   padding: 24px;
-  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
   text-align: left;
-  transition: border-color 200ms ease, box-shadow 200ms ease;
-  color: var(--experience-card-text, var(--text-color));
-}
-
-.card:hover {
-  border-color: rgba(9, 135, 242, 0.35);
-  box-shadow: 0 20px 45px rgba(9, 135, 242, 0.15);
 }
 
 .cardHeader {
@@ -38,25 +30,24 @@
 
 .cardHeader h2 {
   margin: 0;
-  color: var(--experience-card-text, var(--text-color));
 }
 
 .companyLine {
   margin: 0;
-  color: var(--experience-card-meta, var(--form-text-color));
+  color: var(--form-text-color);
   font-weight: 500;
 }
 
 .dates {
   font-family: 'Roboto Mono', monospace;
-  color: var(--experience-card-meta, var(--form-text-color));
+  color: var(--form-text-color);
   font-size: 0.9rem;
   margin: 0;
 }
 
 .location {
   margin: 0;
-  color: var(--experience-card-muted, var(--secondary-text-color));
+  color: var(--secondary-text-color);
 }
 
 @media (width >= 800px) {
