@@ -3,18 +3,30 @@
     --btn-color: #0987f2;
     --btn-text-color: #fff;
     --project-card-bg: #ffffff00;
+    --experience-card-bg: #f6f8fa;
+    --experience-card-border: rgba(34, 51, 84, 0.12);
+    --experience-card-text: #222;
+    --experience-card-meta: #555;
+    --experience-card-muted: #666;
     --text-color: #222;
     --form-text-color: #555;
+    --secondary-text-color: #666;
     --footer-text-color: #888;
   }
-  
-  [data-theme='dark'] {
+
+  body[data-theme='dark'] {
     --background-color: #222;
     --btn-color: #fff;
     --btn-text-color: #222;
     --project-card-bg: #fff;
+    --experience-card-bg: #111827;
+    --experience-card-border: rgba(255, 255, 255, 0.14);
+    --experience-card-text: #e5e7eb;
+    --experience-card-meta: #cbd5e1;
+    --experience-card-muted: #94a3b8;
     --text-color: #fff;
     --form-text-color: #fff;
+    --secondary-text-color: #d1d5db;
     --footer-text-color: #bbb;
   }
   
