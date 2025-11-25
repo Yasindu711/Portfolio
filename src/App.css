@@ -19,11 +19,11 @@
     --btn-color: #fff;
     --btn-text-color: #222;
     --project-card-bg: #fff;
-    --experience-card-bg: #2c2f36;
-    --experience-card-border: rgba(255, 255, 255, 0.08);
-    --experience-card-text: #f8fafc;
-    --experience-card-meta: #e2e8f0;
-    --experience-card-muted: #cbd5e1;
+    --experience-card-bg: #111827;
+    --experience-card-border: rgba(255, 255, 255, 0.14);
+    --experience-card-text: #e5e7eb;
+    --experience-card-meta: #cbd5e1;
+    --experience-card-muted: #94a3b8;
     --text-color: #fff;
     --form-text-color: #fff;
     --secondary-text-color: #d1d5db;
