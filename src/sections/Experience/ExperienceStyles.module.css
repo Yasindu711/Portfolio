@@ -4,54 +4,87 @@
   align-items: center;
   text-align: center;
   gap: 40px;
+  width: 100%;
+  padding: 0 20px;
 }
 
 .timeline {
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  width: min(800px, 100%);
-  padding: 0 20px;
+  gap: 24px;
+  width: min(700px, 100%);
 }
 
 .card {
-  background: var(--project-card-bg);
-  border-radius: 20px;
-  padding: 24px;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
-  text-align: left;
+  background: var(--experience-card-bg);
+  border: 1px solid var(--experience-card-border);
+  border-radius: 16px;
+  padding: 28px;
+  text-align: center;
 }
 
 .cardHeader {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  align-items: center;
+  gap: 6px;
 }
 
 .cardHeader h2 {
   margin: 0;
+  color: var(--experience-card-text);
 }
 
 .companyLine {
   margin: 0;
-  color: var(--form-text-color);
+  color: var(--experience-card-meta);
   font-weight: 500;
 }
 
 .dates {
   font-family: 'Roboto Mono', monospace;
-  color: var(--form-text-color);
+  color: var(--experience-card-meta);
   font-size: 0.9rem;
   margin: 0;
 }
 
 .location {
   margin: 0;
-  color: var(--secondary-text-color);
+  color: var(--experience-card-muted);
+}
+
+.points {
+  margin: 20px auto 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: min(560px, 100%);
+  text-align: left;
+}
+
+.points li {
+  display: flex;
+  gap: 8px;
+  color: var(--experience-card-text);
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.points li::before {
+  content: '—';
+  flex-shrink: 0;
+  color: var(--experience-card-muted);
 }
 
 @media (width >= 800px) {
   .timeline {
-    gap: 40px;
+    gap: 32px;
+  }
+
+  .card {
+    padding: 36px;
   }
 }

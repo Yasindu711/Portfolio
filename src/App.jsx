@@ -12,9 +12,9 @@ function App() {
     <>
       <Hero />
       <About />
-      <Projects />
       <Experience />
       <Skills />
+      <Projects />
       <Contact />
       <Footer />
     </>

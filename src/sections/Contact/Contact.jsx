@@ -1,4 +1,3 @@
-import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import styles from './ContactStyles.module.css'; 
 
@@ -14,14 +13,14 @@ function Contact() {
   };
 
   if (state.succeeded) {
-    return <p>Thanks for your message! I'll get back to you soon.</p>;
+    return <p>Thanks for your message! I&apos;ll get back to you soon.</p>;
   }
 
   return (
     <section id="contact" className={styles.container}>
       {/* Intro line before the Contact header */}
       <p className={styles.introText}>
-        Looking to collaborate? Let’s schedule a time to connect. Coffee's on me !
+        Looking to collaborate? Let’s schedule a time to connect. Coffee&apos;s on me!
       </p>
       <h1 className="sectionTitle">Contact</h1>
       <form onSubmit={handleSubmit}>

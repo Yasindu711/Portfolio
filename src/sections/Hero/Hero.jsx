@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/hero-img.png';
+import heroImg from '../../assets/hero-img.jpg';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import twitterLight from '../../assets/twitter-light.svg';
@@ -25,15 +25,15 @@ function Hero() {
   return (
     <section id="hero" className={styles.container}>
       <div className={styles.colorModeContainer}>
-        <img 
-          className={styles.hero} 
-          src={heroImg} 
-          alt="Profile picture of Yasindu Ariyarathna" 
+        <img
+          className={styles.hero}
+          src={heroImg}
+          alt="Profile picture of Yasindu Ariyarathna"
         />
-        <img 
-          className={styles.colorMode} 
-          src={themeIcon} 
-          alt="Color mode icon" 
+        <img
+          className={styles.colorMode}
+          src={themeIcon}
+          alt="Color mode icon"
           onClick={toggleTheme}
         />
       </div>
@@ -43,20 +43,21 @@ function Hero() {
             <br/> 
             Ariyarthna
         </h1>
-        <h2>Graduate Software Engineering Student</h2>
+        <h2>AI Automation and Systems Analyst</h2>
         <span>
-            <a href="https://twitter.com/" target="_blank">
+            <a href="https://twitter.com/" target="_blank" rel="noreferrer">
                 <img src={twitterIcon} alt="twitter logo" />
             </a>
-            <a href="https://github.com/Yasindu711" target="_blank">
+            <a href="https://github.com/Yasindu711" target="_blank" rel="noreferrer">
                 <img src={githubIcon} alt="Github logo" />
             </a>
-            <a href="https://www.linkedin.com/in/yasinduariyarathna/" target="_blank">
+            <a href="https://www.linkedin.com/in/yasinduariyarathna/" target="_blank" rel="noreferrer">
                 <img src={linkedinIcon} alt="linkedin logo" />
             </a>
         </span>
         <p className={styles.description}>
-            With a passion for developing and building Software's and Web Apps for Every Day Use.
+            With a passion for developing software and web apps for everyday use.
+            Now leveraging AI to build agents and automations that turn everyday work into something that runs itself.
         </p>
         <a href={CV} download>
             <button className="hover">Resume</button>

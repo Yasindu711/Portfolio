@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './AboutStyles.module.css'; // Importing the styles
 
 function About() {
@@ -7,10 +6,10 @@ function About() {
       <h1>About Me</h1>
       <div className={styles.content}>
         <p>
-          I’m Yasindu Ariyarathna, a Graduate Software Engineering and Data Science student with a strong focus on front-end development. My work centers on creating innovative software solutions that improve daily experiences, as well as leveraging AI automation to streamline processes and drive efficiency.
+          I&apos;m Yasindu Ariyarathna, an AI Automation and Systems Analyst based in Melbourne. I build software and systems for everyday use, leveraging AI to design agents, automations, and integrations that remove manual work and give people their time back.
         </p>
         <p>
-          My journey into software development started from a fascination with computers and technology. I enjoy problem-solving, collaborating on projects, and creating user-friendly interfaces. I'm currently studying at Swinburne University of Technology, and working on personal projects to hone my development skills.
+          My journey started with a fascination for computers and technology, and it hasn&apos;t changed much since - I still like pulling problems apart and building the thing that solves them. These days that means production AI infrastructure: custom MCP servers, 30+ live automations, and integrations across 25+ platforms, all running daily for a real team. I hold a Bachelor of Computer Science (Data Science) from Swinburne University of Technology, and I&apos;m always building something on the side.
         </p>
       </div>
     </section>
